@@ -18,9 +18,7 @@ accessible and understandable at the simplest level
 To get the app, copy the following code into your RStudio Console:
 
 ``` r
-if (!require("devtools")) install.packages("devtools")
-library(devtools)
-devtools::install_github("gesagraf/simplest_bayes")
+# To be announced
 ```
 
 You also might need some additional packages:
