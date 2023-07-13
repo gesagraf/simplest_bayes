@@ -9,29 +9,9 @@
 An attempt to make the relationships of Bayes’ theorem graphically
 accessible and understandable at the simplest level
 
-- **Language**: German, but its kinda not imprtant
-
 ### Quick Start
 
-**Prerequisites**: R + RStudio installed
-
-To get the app, copy the following code into your RStudio Console:
-
-``` r
-# To be announced
-```
-
-You also might need some additional packages:
-
-``` r
-if (!require("shiny")) install.packages("shiny")
-if (!require("shinythemes")) install.packages("shinythemes")
-if (!require("ggplot2")) install.packages("ggplot2")
-if (!require("viridis")) install.packages("viridis")
-```
-
-Open file `app.R`. In the right corner of the skript pane there will be
-a Button `Run App`. Press it.
+See here: https://gesa-graf.shinyapps.io/simplest_bayes/
 
 ## Contributing
 
