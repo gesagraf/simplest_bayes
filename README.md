@@ -29,5 +29,4 @@ request.
 I would be happy to hear from you if you want to modify or redistribute
 the contents of this app.
 
-This software comes to you with an OpenSource license, because I am
-believer in the strength of commons.
+This software comes to you with an OpenSource license.
