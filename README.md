@@ -11,6 +11,8 @@ accessible and understandable at the simplest level
 
 ### Quick Start
 
+**This is currently NOT correct. I'm working on it**
+
 See here: https://gesa-graf.shinyapps.io/simplest_bayes/
 
 ## Contributing
