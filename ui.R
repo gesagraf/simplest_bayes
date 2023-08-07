@@ -1,9 +1,10 @@
+# setting colours
 cols <- viridis::viridis(n = 3)
-
 
 ui <- fluidPage(
   
-  shinyWidgets::setSliderColor(c(rep(cols[1], 2), rep(cols[2], 2)), 1:5),
+  # setting slider colours
+  shinyWidgets::setSliderColor(c(rep(cols[1], 2), rep(cols[2], 2)), 1:4),
   
   
   # Application title

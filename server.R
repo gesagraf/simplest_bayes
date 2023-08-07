@@ -1,5 +1,4 @@
 #### Packages ####
-library(ggplot2)
 library(shiny)
 library(shinythemes)
 
@@ -16,6 +15,7 @@ server <- function(input, output) {
     sd_data <- input$sd_data
 
     # create data
+    set.seed(20230807)
     x <-  rnorm(n = 10, mean = m_data, sd = sd_data)
     
     # sequence for x-axis
@@ -59,7 +59,7 @@ server <- function(input, output) {
     cols <- viridis::viridis(n = 3)
     
     
-    ggplot(NULL, aes(x = mu_hat)) +
+    ggplot2::ggplot(NULL, aes(x = mu_hat)) +
       
       # Likelihood of data
       geom_line(aes(y = Likelihood_function_norm, col  = "Likelihood Data")) +
@@ -85,7 +85,7 @@ server <- function(input, output) {
            x = "Intelligenzwerte",
            caption = "Sehr schön zu sehen ist hier, dass in diesem simplen Fall die Likelihood der Daten einen sehr großen Einfluss hat.\n Das ändert sich mit zunehmender Komplexität des Modells.") +
       theme_bw() +
-      theme(legend.justification = c(.9, .9), legend.position = c(.9, .9))
+      theme(legend.justification = c("left", "top"), legend.position = c(.01, .99))
     
   })
 }
