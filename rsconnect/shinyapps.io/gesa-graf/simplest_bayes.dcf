@@ -1,0 +1,11 @@
+name: simplest_bayes
+title:
+username:
+account: gesa-graf
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9451209
+bundleId: 7452490
+url: https://gesa-graf.shinyapps.io/simplest_bayes/
+when: 1689252842.19675
+lastSyncTime: 1689252842.19677
