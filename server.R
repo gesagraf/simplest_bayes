@@ -1,10 +1,5 @@
-#### Packages ####
-library(shiny)
-library(shinythemes)
+library("ggplot2")
 
-
-
-#### Server ####
 server <- function(input, output) {
   
   output$distPlot <- renderPlot({
@@ -59,7 +54,7 @@ server <- function(input, output) {
     cols <- viridis::viridis(n = 3)
     
     
-    ggplot2::ggplot(NULL, aes(x = mu_hat)) +
+    ggplot(NULL, aes(x = mu_hat)) +
       
       # Likelihood of data
       geom_line(aes(y = Likelihood_function_norm, col  = "Likelihood Data")) +
