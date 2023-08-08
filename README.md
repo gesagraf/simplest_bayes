@@ -19,10 +19,7 @@ Feedback and contributions are welcome!
 
 If you spot a typo, some incorrect content or see just a better way to
 do it, you are welcome to collaborate. Either report it as an issue or
-even better, fix it yourself!
-
-Fork the repo, contribute and please submit your changes with a pull
-request.
+even better, fix it yourself.
 
 ## Licensing
 
