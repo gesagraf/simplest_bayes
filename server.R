@@ -17,11 +17,7 @@ server <- function(input, output) {
     mu_hat <- seq(70, 130, length.out = 200)
     
     ##### calculate Likelihood #####
-    # Understandig the functions:
-    # sapply(X, FUN, ...): applying FUN to the corresponding element of X
-    # prod(): returns product
-    # dnorm(): gives density
-    # -> calculates for every created x value (mu_hat) the likelihood for given data
+    # calculates for every created x value (mu_hat) the likelihood for given data
     Likelihood_function <- sapply(mu_hat, FUN = function(i_mu){
       prod(dnorm(x, mean = i_mu, sd = sd_data))
     },
